@@ -1,0 +1,109 @@
+/* Custom styles for the website */
+
+/* Grid layout for projects and blog posts */
+.grid__item {
+  margin-bottom: 2em;
+}
+
+.archive__item {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 1em;
+  transition: all 0.3s ease;
+}
+
+.archive__item:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.archive__item-teaser {
+  margin-bottom: 1em;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.archive__item-title {
+  margin-bottom: 0.5em;
+}
+
+.archive__item-excerpt {
+  margin-bottom: 1em;
+}
+
+.archive__item-category {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* Feature wrapper for homepage */
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.feature__item {
+  margin-bottom: 2em;
+}
+
+/* Button styles */
+.btn--primary {
+  background-color: #2a7ae2;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn--primary:hover {
+  background-color: #1a5cb3;
+  color: #fff;
+}
+
+/* Experience page timeline */
+.experience-item {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 2em;
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #e8e8e8;
+}
+
+.experience-item::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2a7ae2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr;
+  }
+  
+  .archive__item-teaser img {
+    height: 150px;
+  }
+} 
