@@ -343,4 +343,77 @@ button:focus {
 /* Link hover underline */
 .page__content a:hover {
   text-decoration-color: #0c2946 !important;
+}
+
+/* ========================================
+   MOBILE COLLAPSIBLE SIDEBAR
+   ======================================== */
+
+/* Mobile-only styles */
+@media (max-width: 1024px) {
+  /* Hide the sidebar content by default on mobile */
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: none;
+  }
+
+  /* Show only when expanded */
+  .sidebar.is-expanded .author__content,
+  .sidebar.is-expanded .author__urls-wrapper {
+    display: block;
+  }
+
+  /* Make avatar smaller and clickable as toggle */
+  .sidebar .author__avatar {
+    cursor: pointer;
+    position: relative;
+  }
+
+  .sidebar .author__avatar img {
+    width: 80px !important;
+    height: 80px !important;
+    min-width: 80px !important;
+    min-height: 80px !important;
+    max-width: 80px !important;
+    max-height: 80px !important;
+  }
+
+  /* Add expand indicator */
+  .sidebar .author__avatar::after {
+    content: 'Tap to expand';
+    display: block;
+    font-size: 0.7rem;
+    color: #888;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+
+  .sidebar.is-expanded .author__avatar::after {
+    content: 'Tap to collapse';
+  }
+
+  /* Keep name visible but smaller */
+  .sidebar .author__name {
+    font-size: 1rem !important;
+  }
+
+  /* Add subtle background when collapsed */
+  .sidebar {
+    background: #fdf8fa;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+  .sidebar.is-expanded {
+    background: #fff;
+  }
+}
+
+/* Desktop: ensure sidebar is always visible */
+@media (min-width: 1025px) {
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: block !important;
+  }
 } 

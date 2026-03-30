@@ -26,3 +26,24 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- Mobile Sidebar Toggle -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var sidebar = document.querySelector('.sidebar');
+  var avatar = document.querySelector('.author__avatar');
+
+  if (sidebar && avatar && window.innerWidth <= 1024) {
+    avatar.addEventListener('click', function() {
+      sidebar.classList.toggle('is-expanded');
+    });
+  }
+
+  // Re-check on resize
+  window.addEventListener('resize', function() {
+    if (window.innerWidth > 1024 && sidebar) {
+      sidebar.classList.remove('is-expanded');
+    }
+  });
+});
+</script>

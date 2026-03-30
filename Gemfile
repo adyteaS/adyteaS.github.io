@@ -1,10 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4"
-gem "minimal-mistakes-jekyll"
-gem "jekyll-include-cache"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick"
