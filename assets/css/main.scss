@@ -5,5 +5,24 @@ search: false
 
 @charset "utf-8";
 
+/* Override theme variables BEFORE importing theme */
+$doc-font-size: 14px;
+$text-color: #0c2946;
+$muted-text-color: #0c2946;
+$link-color: #0c2946;
+$link-color-hover: #1a4c73;
+$link-color-visited: #0c2946;
+$masthead-link-color: #0c2946;
+$masthead-link-color-hover: #1a4c73;
+
+/* Override heading sizes */
+$h-size-1: 1.8rem;
+$h-size-2: 1.4rem;
+$h-size-3: 1.2rem;
+$h-size-4: 1.1rem;
+$h-size-5: 1rem;
+$h-size-6: 0.95rem;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "custom"; // custom overrides - MUST be last!
