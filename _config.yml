@@ -114,10 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "Aditi Kuchi"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/aditi-linkedin.jpg"
   bio              : "Research Data Scientist at Cedars-Sinai | Foundation Models for Cancer Biology | Single Cell Genomics | Drug Toxicity Prediction"
   location         : "Los Angeles, California"
-  email            : "kuchiaditi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,10 +126,10 @@ author:
       url: "https://github.com/adyteas"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/aditikuchi/"
     - label: "Substack"
-      icon: "fas fa-fw fa-rss"
-      url: "https://adyteas.substack.com"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://kuchiaditi.substack.com/"
 
 # Site Footer
 footer:
@@ -140,10 +139,10 @@ footer:
       url: "https://github.com/adyteas"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/aditikuchi/"
     - label: "Substack"
-      icon: "fas fa-fw fa-rss"
-      url: "https://adyteas.substack.com"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://kuchiaditi.substack.com/"
 
 
 # Reading Files

@@ -7,157 +7,6 @@ toc_label: "Contents"
 toc_sticky: true
 ---
 
-## Journal Publications
-
-### Foundation Models for Translational Cancer Biology
-**KK Tsang, S Kivelson, JM Acitores Cortina, A Kuchi, et al.**
-*Annual Review of Biomedical Data Science, 2025*
-[Link to paper](#)
-
-Comprehensive review of foundation models and their applications in translational cancer biology research.
-
----
-
-### Biases in Race and Ethnicity Introduced by Filtering Electronic Health Records for 'Complete Data'
-**Authors: A Kuchi, et al.**
-*Medrxiv, 2024*
-[Link to paper](#)
-
-Investigation of systematic biases introduced when filtering electronic health records based on data completeness criteria.
-
----
-
-### Integrating Genomic Information with Tumor-Immune Microenvironment in Triple-Negative Breast Cancer
-**Otohinoyi, D.; Kuchi, A.; Wu, J.; Hicks, C.**
-*International Journal of Environmental Research and Public Health, 2022*
-[Link to paper](https://doi.org/10.3390/ijerph...)
-
-Analysis of genomic integration with tumor-immune microenvironment in TNBC.
-
----
-
-### Landscape of Molecular Crosstalk Perturbation between Lung Cancer and COVID-19
-**Kuchi, A.; Wu, J.; Fuloria, J.; Hicks, C.**
-*International Journal of Environmental Research and Public Health, 2022*
-[Link to paper](https://doi.org/10.3390/ijerph...)
-
-Comprehensive study examining molecular interactions between lung cancer and COVID-19 pathways.
-
----
-
-### CpG Site-Based Signature Predicts Survival of Colorectal Cancer
-**Wu, J.; Zhang, L.; Kuchi, A.; Otohinoyi, D.; Hicks, C.**
-*Biomedicines, 2022, 10, 3163*
-[Link to paper](https://doi.org/10.3390/biomedicines...)
-
-Development of CpG methylation-based prognostic signature for colorectal cancer survival prediction.
-
----
-
-### A Machine Learning Approach to Detecting Cracks in Levees and Floodwalls
-**Kuchi, A., Panta, M., Hoque, M.T., Abdelguerfi, M., Flanagin, M.**
-*Remote Sensing Applications: Society and Environment, 2021*
-[Link to paper](#)
-
-Novel machine learning methodology for automated detection of structural defects in flood protection infrastructure.
-
----
-
-### Machine Learning Applications in Detecting Sand Boils from Images
-**Kuchi, A., Hoque, M.T., Abdelguerfi, M., Flanagin, M.**
-*Array, Elsevier, 2019*
-[Link to paper](#)
-
-Application of machine learning techniques to identify sand boil formations from aerial and satellite imagery.
-
----
-
-### StackSSSPred: A Stacking-Based Prediction of Supersecondary Structure from Sequence
-**Flot, M., Mishra, A., Kuchi, A., Hoque, M.T.**
-*Methods in Molecular Biology, 2019*
-[Link to paper](#)
-
-Book chapter presenting ensemble learning approach for protein supersecondary structure prediction.
-
----
-
-## Under Review
-
-### A Machine Learning Approach to Prediction of Clinical Outcomes in Lung Cancer Patients using Multi-omics Data
-**Kuchi, A., Otohinoyi, D., Wu, J., Hicks, C.**
-*MDPI Biology (Under review)*
-
-Integration of multi-omic data types for predicting clinical outcomes in lung cancer patients.
-
----
-
-### Molecular Portraits of COVID-19 affected and Normal lungs
-**Kuchi, A., Wu, J., Hirezi, M., Hicks, C.**
-*SAGE (Under review)*
-
-Comprehensive molecular characterization of COVID-19 affected lung tissue compared to normal tissue.
-
----
-
-## Conference Publications
-
-### Levee-Crack Detection from Satellite or Drone Imagery Using Machine Learning Approaches
-**Kuchi, A., Hoque, M.T., Abdelguerfi, M., Flanagin, M.**
-*IEEE IGARSS, 2020*
-[Link to paper](#)
-
-Conference presentation on automated levee crack detection using machine learning on remote sensing data.
-
----
-
-### A Machine Learning Approach for Biomarker Discovery using Hepatocellular Carcinoma Transcriptome Data
-**Hirezi, M. G., Kuchi, A., Wu, J., Hicks, C.**
-*LSUHSC-NO, 2020*
-
-Machine learning methods for identifying novel biomarkers in liver cancer transcriptomic data.
-
----
-
-### An Integrative Genomics approach to Discovery of Molecular Markers in Ovarian Cancer
-**Dahlia, S., Kuchi, A., Wu, J., Hicks, C.**
-*Research Experiences for Undergraduates (REU) Program, LSUHSC-NO, 2020*
-
-Multi-omic integration approach for biomarker discovery in ovarian cancer.
-
----
-
-### Integrative Genomics Approach to Biomarker Discovery in Colorectal Cancer
-**Espinal, E., Kuchi, A., Wu, J., Hicks, C.**
-*Research Experiences for Undergraduates (REU) Program, LSUHSC-NO, 2020*
-
-Comprehensive genomic analysis to identify prognostic biomarkers in colorectal cancer.
-
----
-
-### Mapping the Genomic Landscape of TNBC and COVID-19
-**Rahman, M., Stewart, M., Kuchi, A., Otohinoyi, D., Wu, J., Hicks, C.**
-*Research Experiences for Undergraduates (REU) Program, LSUHSC-NO, 2021*
-
-Investigation of shared molecular pathways between triple-negative breast cancer and COVID-19.
-
----
-
-### Elucidation of the Genomic Landscape of Ovarian Cancer and COVID-19
-**Stewart, M., Rahman, M., Kuchi, A., Otohinoyi, D., Wu, J., Hicks, C.**
-*Research Experiences for Undergraduates (REU) Program, LSUHSC-NO, 2021*
-
-Genomic analysis of molecular connections between ovarian cancer and COVID-19 pathways.
-
----
-
-### Determining the biological mechanisms driving the association between COVID-19 and lung cancer in smokers and nonsmokers
-**Nafees, F., Kuchi, A., Otohinoyi, D., Wu, J., Hicks, C.**
-*Research Experiences for Undergraduates (REU) Program, LSUHSC-NO, 2022*
-
-Study examining differential molecular mechanisms linking COVID-19 and lung cancer in smoking vs. non-smoking populations.
-
----
-
 ## Research Highlights
 
 My research focuses on applying machine learning and computational methods to:
@@ -168,27 +17,102 @@ My research focuses on applying machine learning and computational methods to:
 - **Biomarker Discovery**: Identifying molecular markers for disease diagnosis and prognosis
 - **Computer Vision for Infrastructure**: Applying deep learning to critical infrastructure monitoring and disaster prevention
 
----
-
-## ArXiv Preprints & Preprints
-
-*Section to be updated with latest preprints*
-
-If you have specific ArXiv papers or preprints you'd like to add, please provide the details:
-- Title
-- Authors
-- ArXiv ID or preprint server
-- Link
-- Brief description
+**Google Scholar Profile:** [View my Google Scholar](https://scholar.google.com/citations?user=MhvP87EAAAAJ&hl=en)
 
 ---
 
-## Citation Metrics
+## Journal Publications
 
-**Google Scholar Profile:** [Link to your profile](#)
-**ORCID:** [Your ORCID ID](#)
-**ResearchGate:** [Link to profile](#)
+### Cell-type Specific Single-cell Signatures Reveal Nephrotoxic Drug Effects
+**A. Kuchi**, J.M. Acitores Cortina, H. Liu, Y. Fatapour, J. Berkowitz, N.P. Tatonetti
+*Computational and Structural Biotechnology Journal, 2025*
+[Link to paper](https://doi.org/10.1016/j.csbj.2025.11.012)
+
+Development of cell-type specific signatures from single-cell data to predict and characterize nephrotoxic drug effects.
 
 ---
 
-*Last updated: November 2024*
+### Foundation Models for Translational Cancer Biology
+K.K. Tsang, S. Kivelson, J.M. Acitores Cortina, **A. Kuchi**, J.S. Berkowitz, H. Liu, A. Srinivasan, N.A. Friedrich, Y. Fatapour, N.P. Tatonetti
+*Annual Review of Biomedical Data Science, 2025*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/39879559/)
+
+Comprehensive review of foundation models and their applications in translational cancer biology research.
+
+---
+
+### Biases in Race and Ethnicity Introduced by Filtering Electronic Health Records for "Complete Data"
+J.M. Acitores Cortina, Y. Fatapour, K.L. Brown, U. Gisladottir, M. Zietz, O.J. Bear Don't Walk IV, D. Peter, J.S. Berkowitz, N.A. Friedrich, S. Kivelson, **A. Kuchi**, H. Liu, A. Srinivasan, K.K. Tsang, N.P. Tatonetti
+*JMIR Medical Informatics, 2025*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/40146917/)
+
+Investigation of systematic biases introduced when filtering electronic health records based on data completeness criteria.
+
+---
+
+### CpG Site-Based Signature Predicts Survival of Colorectal Cancer
+J. Wu, L. Zhang, **A. Kuchi**, D. Otohinoyi, C. Hicks
+*Biomedicines, 2022, 10, 3163*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/36551919/)
+
+Development of CpG methylation-based prognostic signature for colorectal cancer survival prediction.
+
+---
+
+### Integrating Genomic Information with Tumor-Immune Microenvironment in Triple-Negative Breast Cancer
+D. Otohinoyi, **A. Kuchi**, J. Wu, C. Hicks
+*International Journal of Environmental Research and Public Health, 2022*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/36360779/)
+
+Analysis of genomic integration with tumor-immune microenvironment in TNBC.
+
+---
+
+### Landscape of Molecular Crosstalk Perturbation between Lung Cancer and COVID-19
+**A. Kuchi**, J. Wu, J. Fuloria, C. Hicks
+*International Journal of Environmental Research and Public Health, 2022*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/35329141/)
+
+Comprehensive study examining molecular interactions between lung cancer and COVID-19 pathways.
+
+---
+
+### A Machine Learning Approach to Detecting Cracks in Levees and Floodwalls
+**A. Kuchi**, M. Panta, M.T. Hoque, M. Abdelguerfi, M. Flanagin
+*Remote Sensing Applications: Society and Environment, 2021*
+[Link to paper](https://www.sciencedirect.com/science/article/abs/pii/S2352938521000495)
+
+Novel machine learning methodology for automated detection of structural defects in flood protection infrastructure.
+
+---
+
+### Machine Learning Applications in Detecting Sand Boils from Images
+**A. Kuchi**, M.T. Hoque, M. Abdelguerfi, M. Flanagin
+*Array, Elsevier, 2019*
+[Link to paper](https://www.sciencedirect.com/science/article/pii/S2590005619300128)
+
+Application of machine learning techniques to identify sand boil formations from aerial and satellite imagery.
+
+---
+
+### StackSSSPred: A Stacking-Based Prediction of Supersecondary Structure from Sequence
+M. Flot, A. Mishra, **A. Kuchi**, M.T. Hoque
+*Methods in Molecular Biology, 2019*
+[Link to paper](https://pubmed.ncbi.nlm.nih.gov/30945215/)
+
+Book chapter presenting ensemble learning approach for protein supersecondary structure prediction.
+
+---
+
+## Conference Publications
+
+### Levee-Crack Detection from Satellite or Drone Imagery Using Machine Learning Approaches
+**A. Kuchi**, M.T. Hoque, M. Abdelguerfi, M. Flanagin
+*IEEE IGARSS, 2020*
+[Link to paper](https://ieeexplore.ieee.org/document/9323936/)
+
+Conference presentation on automated levee crack detection using machine learning on remote sensing data.
+
+---
+
+*Last updated: December 2024*

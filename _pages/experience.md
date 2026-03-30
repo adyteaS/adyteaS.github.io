@@ -162,6 +162,28 @@ Designed and built a Quad-copter capable of self-sustained flight for use in sec
 
 ## Grants and Contracts Supported
 
+<div class="highlight-box" markdown="1">
+
+### NIH Outstanding Investigator Award (R35) – Precision Pharmacology and Pharmacovigilance
+**Principal Investigator:** Dr. Nicholas Tatonetti
+
+Contributing to efforts aimed at improving adverse drug event detection, modeling molecular mechanisms of toxicity, and advancing AI-driven approaches to drug safety.
+
+**Role:** Research Data Scientist, Cedars-Sinai
+
+</div>
+
+<div class="highlight-box" markdown="1">
+
+### ARPA-H Catalyst Program (KronosRx)
+**Principal Investigator:** Dr. Nicholas Tatonetti
+
+Contributing to the development of patient-specific, time-resolved pharmacodynamic and toxicodynamic modeling frameworks, including work on multimodal data integration and model interpretability.
+
+**Role:** Research Data Scientist, Cedars-Sinai
+
+</div>
+
 ### NIH/NCATS, 1UL1TR003096-01 (Kimberly)
 **Center for Clinical and Translational Sciences (CCTS)**
 *May 6, 2019 - April 30, 2024*

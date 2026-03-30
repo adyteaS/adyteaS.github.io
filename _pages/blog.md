@@ -9,10 +9,7 @@ Welcome to my blog! Here I write about science, technology, machine learning, co
 
 ## Topics I Cover
 
-- **Machine Learning & AI**: Foundation models, transformers, deep learning applications
-- **Computational Biology**: Single cell genomics, drug discovery, bioinformatics
-- **Research Insights**: Sharing findings and learnings from my research
-- **Career & Professional Development**: Navigating academia and industry
+- **Machine Learning, Computational Biology & Research**: Foundation models, single cell genomics, drug discovery, and insights from my work
 - **Art & Creativity**: Digital art, creative pursuits
 - **Food & Cooking**: Exploring culinary adventures
 
@@ -20,7 +17,7 @@ Welcome to my blog! Here I write about science, technology, machine learning, co
 
 ## Subscribe to My Newsletter
 
-For regular updates and longer-form articles, subscribe to my [Substack newsletter](https://adyteas.substack.com).
+For regular updates and longer-form articles, subscribe to my [Substack newsletter](https://kuchiaditi.substack.com/).
 
 ---
 
