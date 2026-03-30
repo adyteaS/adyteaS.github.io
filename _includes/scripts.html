@@ -27,23 +27,28 @@
   {% endfor %}
 {% endif %}
 
-<!-- Mobile Sidebar Toggle -->
+<!-- Mobile TOC Toggle -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var sidebar = document.querySelector('.sidebar');
-  var avatar = document.querySelector('.author__avatar');
+  var toc = document.querySelector('.toc');
+  var tocTitle = document.querySelector('.toc .nav__title');
 
-  if (sidebar && avatar && window.innerWidth <= 1024) {
-    avatar.addEventListener('click', function() {
-      sidebar.classList.toggle('is-expanded');
+  if (toc && tocTitle) {
+    tocTitle.addEventListener('click', function() {
+      toc.classList.toggle('is-expanded');
     });
   }
 
-  // Re-check on resize
+  // On desktop, always show TOC
   window.addEventListener('resize', function() {
-    if (window.innerWidth > 1024 && sidebar) {
-      sidebar.classList.remove('is-expanded');
+    if (window.innerWidth > 1024 && toc) {
+      toc.classList.add('is-expanded');
     }
   });
+
+  // Start expanded on desktop
+  if (toc && window.innerWidth > 1024) {
+    toc.classList.add('is-expanded');
+  }
 });
 </script>

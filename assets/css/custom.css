@@ -307,6 +307,39 @@ h4,
   color: #0c2946 !important;
 }
 
+/* Format bio text - each item on its own line */
+.author__bio {
+  font-size: 0.85rem !important;
+  line-height: 1.6 !important;
+}
+
+.author__bio .bio-item {
+  display: block;
+  margin-bottom: 0.4em;
+  padding-left: 0;
+}
+
+.author__bio .bio-item:first-child {
+  font-weight: 600;
+  font-size: 0.9rem !important;
+  color: #0c2946;
+  margin-bottom: 0.6em;
+}
+
+.author__bio .bio-item:not(:first-child) {
+  font-size: 0.8rem !important;
+  color: #555;
+  padding-left: 0.5em;
+  border-left: 2px solid #f5d5e3;
+}
+
+/* Make the name stand out more */
+.author__name {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5em !important;
+}
+
 /* Force circular profile picture in sidebar - ALWAYS */
 .author__avatar img {
   width: 110px !important;
@@ -346,74 +379,55 @@ button:focus {
 }
 
 /* ========================================
-   MOBILE COLLAPSIBLE SIDEBAR
+   MOBILE COLLAPSIBLE TABLE OF CONTENTS
    ======================================== */
 
-/* Mobile-only styles */
+/* Mobile-only styles for TOC */
 @media (max-width: 1024px) {
-  /* Hide the sidebar content by default on mobile */
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    display: none;
-  }
-
-  /* Show only when expanded */
-  .sidebar.is-expanded .author__content,
-  .sidebar.is-expanded .author__urls-wrapper {
-    display: block;
-  }
-
-  /* Make avatar smaller and clickable as toggle */
-  .sidebar .author__avatar {
-    cursor: pointer;
+  /* Make TOC collapsible on mobile */
+  .toc {
     position: relative;
   }
 
-  .sidebar .author__avatar img {
-    width: 80px !important;
-    height: 80px !important;
-    min-width: 80px !important;
-    min-height: 80px !important;
-    max-width: 80px !important;
-    max-height: 80px !important;
+  /* Hide TOC content by default on mobile */
+  .toc .toc__menu {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
   }
 
-  /* Add expand indicator */
-  .sidebar .author__avatar::after {
-    content: 'Tap to expand';
+  /* Show when expanded */
+  .toc.is-expanded .toc__menu {
     display: block;
+    max-height: 2000px;
+  }
+
+  /* Style the TOC header as clickable */
+  .toc .nav__title {
+    cursor: pointer;
+    position: relative;
+    padding-right: 2em;
+  }
+
+  /* Add expand/collapse indicator */
+  .toc .nav__title::after {
+    content: '▼ Tap to expand';
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 0.7rem;
-    color: #888;
-    text-align: center;
-    margin-top: 0.5em;
+    color: #fff;
+    opacity: 0.8;
   }
 
-  .sidebar.is-expanded .author__avatar::after {
-    content: 'Tap to collapse';
+  .toc.is-expanded .nav__title::after {
+    content: '▲ Tap to collapse';
   }
 
-  /* Keep name visible but smaller */
-  .sidebar .author__name {
-    font-size: 1rem !important;
-  }
-
-  /* Add subtle background when collapsed */
-  .sidebar {
-    background: #fdf8fa;
-    border-radius: 8px;
-    padding: 1em;
+  /* Make TOC more compact when collapsed */
+  .toc:not(.is-expanded) {
     margin-bottom: 1em;
-  }
-
-  .sidebar.is-expanded {
-    background: #fff;
-  }
-}
-
-/* Desktop: ensure sidebar is always visible */
-@media (min-width: 1025px) {
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    display: block !important;
   }
 } 
